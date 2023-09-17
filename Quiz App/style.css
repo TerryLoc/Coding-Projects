@@ -35,7 +35,7 @@ body {
   margin-top: 10px;
   font-size: 1.25rem;
   color: #001e4d;
-  font-weight: 600;
+  font-weight: 500;
   margin-bottom: 20px;
 }
 
@@ -51,10 +51,15 @@ body {
   cursor: pointer;
   text-align: left;
 }
-.btn:hover {
+.btn:hover:not([disabled]) {
   background: #222;
   color: #fff;
 }
+
+.btn:disabled {
+  cursor: no-drop;
+}
+
 #next-button {
   background: #001e4d;
   color: #fff;
@@ -70,7 +75,7 @@ body {
 }
 
 .correct {
-  background: rgb(238, 238, 119);
+  background: rgb(240, 240, 130);
 }
 
 .incorrect {
