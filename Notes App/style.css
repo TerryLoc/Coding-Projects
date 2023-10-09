@@ -5,3 +5,7 @@
   box-sizing: border-box;
   letter-spacing: 1px;
 }
+
+body {
+  background-color: rgb(61, 69, 48);
+}
