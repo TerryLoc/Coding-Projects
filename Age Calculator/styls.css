@@ -38,7 +38,6 @@
   display: flex;
   align-items: center;
   max-width: 600px;
-  margin-bottom: 500px;
 }
 
 .input-box input {
@@ -75,4 +74,14 @@
   background-position: calc(100% - 10px);
   background-size: 30px;
   cursor: pointer;
+}
+
+#result {
+  padding-top: 20px;
+  font-size: 1.2rem;
+}
+
+#result span {
+  font-size: 1.5rem;
+  color: #e9e95d;
 }
