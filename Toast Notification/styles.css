@@ -5,3 +5,34 @@
   box-sizing: border-box;
   letter-spacing: 1px;
 }
+
+body {
+  background: #f7edff;
+}
+
+.buttons {
+  margin: 50px;
+}
+
+.buttons button {
+  background: #333;
+  color: #fff;
+  padding: 10px 20px;
+  outline: 0;
+  border: 0;
+  margin-right: 15px;
+  padding: 15px 30px;
+  width: 120px;
+  cursor: pointer;
+}
+
+#toastbox {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  overflow: hidden;
+  padding: 20px;
+}
