@@ -51,7 +51,7 @@ body {
   /* margin: 20px 0; */
   margin: 0;
   font-weight: 500;
-  margin: 60px auto 0;
+  margin: 50px auto 0;
   position: relative;
   left: 50%;
   transform: translate(-50%, -10%);
@@ -70,7 +70,7 @@ body {
   border-radius: 5px;
   max-height: 0;
   overflow: hidden;
-  transition: max-height 1s;
+  transition: max-height 2s;
 }
 
 #imgBox img {
@@ -83,4 +83,26 @@ body {
   margin: 20px auto 0;
   border: 1px solid #d1d1d1;
   /* background: rgb(249, 249, 163); */
+}
+
+.error {
+  animation: shake 0.1s linear 10;
+}
+
+@keyframes shake {
+  0% {
+    transform: translate(0);
+  }
+  25% {
+    transform: translate(-2px);
+  }
+  50% {
+    transform: translate(0);
+  }
+  75% {
+    transform: translate(-2px);
+  }
+  100% {
+    transform: translate(0);
+  }
 }
