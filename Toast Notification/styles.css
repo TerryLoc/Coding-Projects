@@ -23,10 +23,11 @@ body {
   margin-right: 15px;
   padding: 15px 30px;
   width: 120px;
+  border-radius: 4px;
   cursor: pointer;
 }
 
-#toastbox {
+#toastBox {
   position: absolute;
   bottom: 30px;
   right: 30px;
@@ -35,4 +36,15 @@ body {
   flex-direction: column;
   overflow: hidden;
   padding: 20px;
+}
+
+.toast {
+  width: 400px;
+  height: 80px;
+  background: #fff;
+  font-weight: 500;
+  margin: 15px 0;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
 }

@@ -1,9 +1,13 @@
 'use strict';
 
-let toastBox = document.getElementById('toa');
+let toastBox = document.getElementById('toastBox');
+let successMsg = 'Successfully submitted';
+let errorMsg = '*Please fix the error*';
+let invalidMsg = 'Invalid input, check again!';
 
-function showToast() {
+function showToast(msg) {
   let toast = document.createElement('div');
   toast.classList.add('toast');
-  toast.innerText = 'Success';
+  toast.innerText = msg;
+  toastBox.appendChild(toast);
 }
