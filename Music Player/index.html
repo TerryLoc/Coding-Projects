@@ -24,7 +24,7 @@
         <h1>Too Late Now</h1>
         <p>Ryan McCaffrey</p>
 
-        <audio controls id="song">
+        <audio id="song">
           <source
             src="Too Late Now - Go By Ocean _ Ryan McCaffrey.mp3"
             type="audio/mpeg" />
@@ -40,6 +40,16 @@
           </div>
           <div>
             <i class="fa-solid fa-forward"></i>
+          </div>
+        </div>
+
+        <div id="volume">
+          <div>
+            <i class="fa-solid fa-volume-low" id="muteBtn"></i>
+          </div>
+          <input type="range" value="99" id="volLevel" onchange="setVolume()" />
+          <div>
+            <i class="fa-solid fa-volume-high" id="muteBtn"></i>
           </div>
         </div>
       </div>

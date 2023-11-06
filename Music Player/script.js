@@ -20,3 +20,19 @@ function playPause() {
     ctrlIcon.classList.remove('fa-play');
   }
 }
+
+if (song.play()) {
+  setInterval(() => {
+    progress.value = song.currentTime;
+  }, 500);
+}
+
+progress.onchange = function () {
+  song.play();
+  song.currentTime = progress.value;
+  playPause();
+};
+
+function setVolume() {
+  song.volume = volLevel.value / 100;
+}

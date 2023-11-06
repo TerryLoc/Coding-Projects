@@ -8,7 +8,7 @@
 
 .container {
   background: #333;
-  height: 100vh;
+  height: 150vh;
   width: 100%;
   display: flex;
   align-items: center;
@@ -18,6 +18,7 @@
 
 .music-player {
   background: rgb(191, 201, 177);
+  border: 1px solid rgb(32, 78, 37, 0.22);
   width: 400px;
   padding: 25px 35px;
   text-align: center;
@@ -105,4 +106,40 @@ nav .circle {
   transform: scale(1.4);
   background-color: #364034;
   color: #fff;
+}
+
+#volume {
+  margin: 50px 20px 0;
+  background: rgba(255, 255, 255, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 15px;
+  border-radius: 50px;
+}
+
+#volLevel {
+  -webkit-appearance: none;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  height: 7px;
+  background: #088b0a;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0 20px;
+}
+
+#volLevel::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #333;
+  border: 2px solid #364034;
+}
+
+#volume i {
+  color: #364034;
 }
