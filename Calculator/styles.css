@@ -48,7 +48,18 @@ form .answers input {
   height: 70px;
   font-size: 3rem;
   box-shadow: none;
-  background: rgba(255, 255, 255, 0.355);
+  background: rgba(255, 255, 255, 0.348);
   border-radius: 5px;
+  padding-right: 5px;
+  color: rgb(27, 27, 27);
   box-shadow: inset 5px 5px 15px rgba(0, 0, 0, 0.4);
+}
+
+.calculator form input.equal {
+  width: 150px;
+}
+
+form input.operator {
+  color: rgb(8, 181, 200);
+  background-color: #464e598a;
 }
