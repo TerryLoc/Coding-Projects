@@ -45,8 +45,10 @@ form .answers {
 form .answers input {
   text-align: right;
   flex: 1;
+  height: 70px;
   font-size: 3rem;
   box-shadow: none;
   background: rgba(255, 255, 255, 0.355);
   border-radius: 5px;
+  box-shadow: inset 5px 5px 15px rgba(0, 0, 0, 0.4);
 }
