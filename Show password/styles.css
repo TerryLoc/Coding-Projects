@@ -5,3 +5,32 @@
   letter-spacing: 1px;
   font-family: 'Poppins', sans-serif;
 }
+
+body {
+  background: rgb(35, 35, 75);
+}
+
+.inputBox {
+  background: #fff;
+  width: 90%;
+  max-width: 500px;
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin: 300px auto;
+  display: flex;
+  align-items: center;
+}
+
+.inputBox input {
+  width: 100%;
+  padding: 10px 0;
+  border: 0;
+  outline: 0;
+  font-size: 1.25rem;
+  color: #555;
+}
+
+.inputBox img {
+  width: 30px;
+  cursor: pointer;
+}
