@@ -6,20 +6,39 @@
   font-family: 'Poppins', sans-serif;
 }
 
+:root {
+  --primary-color: #edf2fc;
+  --secondary-color: #212121;
+  --third-color: #747576;
+
+  --primary-color: #212121;
+  --secondary-color: #fff;
+}
+
+#icon {
+  width: 25px;
+  cursor: pointer;
+}
+
 .hero {
   height: 100vh;
   width: 100%;
-  background: #edf2fc;
+  background: var(--primary-color);
   position: relative;
 }
 
-naV {
+nav {
   width: 80%;
   margin: auto;
   padding: 20px 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+nav ul {
+  flex: 1;
+  text-align: right;
 }
 
 .logo {
@@ -35,11 +54,11 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  color: #606163;
+  color: var(--third-color);
 }
 
 nav ul li a:hover {
-  color: #000000;
+  color: var(--secondary-color);
 }
 
 .info {
@@ -49,7 +68,7 @@ nav ul li a:hover {
 
 .info h1 {
   font-size: 4rem;
-  color: #212121;
+  color: var(--secondary-color);
   margin-bottom: 20px;
 }
 
@@ -59,17 +78,17 @@ span {
 
 .info p {
   line-height: 22px;
-  color: #606163;
+  color: var(--third-color);
 }
 
 .info a {
-  background: #212121;
-  padding: 10px 18px;
+  background: var(--secondary-color);
+  padding: 12px 20px;
   text-decoration: none;
-  color: #fff;
+  color: var(--primary-color);
   display: inline-block;
   margin: 30px 0;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 .img-box {
@@ -104,11 +123,11 @@ span {
 
 .social-links a {
   font-size: 25px;
-  color: #606163;
+  color: var(--third-color);
   margin-right: 20px;
 }
 
 .social-links a:hover {
   cursor: pointer;
-  color: #000000;
+  color: var(--secondary-color);
 }
