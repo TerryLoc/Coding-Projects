@@ -52,3 +52,22 @@ nav ul li a:hover {
   color: #212121;
   margin-bottom: 20px;
 }
+
+span {
+  color: #fc3c1a;
+}
+
+.info p {
+  line-height: 22px;
+  color: #606163;
+}
+
+.info a {
+  background: #212121;
+  padding: 10px 18px;
+  text-decoration: none;
+  color: #fff;
+  display: inline-block;
+  margin: 30px 0;
+  border-radius: 5px;
+}
