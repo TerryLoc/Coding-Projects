@@ -86,4 +86,29 @@ span {
   left: 50%;
   bottom: 0;
   transform: translate(-50%);
+  transition: bottom 1s, left 1s;
+}
+
+.img-box:hover .back-img {
+  bottom: 40px;
+}
+
+.img-box:hover .main-img {
+  left: 54%;
+}
+
+.social-links {
+  margin: 8%;
+  margin-top: 100px;
+}
+
+.social-links a {
+  font-size: 25px;
+  color: #606163;
+  margin-right: 20px;
+}
+
+.social-links a:hover {
+  cursor: pointer;
+  color: #000000;
 }
