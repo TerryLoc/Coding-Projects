@@ -10,7 +10,9 @@
   --primary-color: #edf2fc;
   --secondary-color: #212121;
   --third-color: #747576;
+}
 
+.dark-theme {
   --primary-color: #212121;
   --secondary-color: #fff;
 }
@@ -18,6 +20,7 @@
 #icon {
   width: 25px;
   cursor: pointer;
+  margin-left: 40px;
 }
 
 .hero {
