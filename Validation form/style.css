@@ -79,5 +79,18 @@ form button {
   outline: 0;
   cursor: pointer;
   display: block;
-  margin: 30px auto 10px;
+  margin: 30px auto 20px;
+}
+
+.input-group span {
+  position: absolute;
+  bottom: 12px;
+  right: 20px;
+  font-size: 0.8rem;
+  color: #ca0909;
+}
+
+#submit-error {
+  font-size: 0.9rem;
+  color: #ca0909;
 }
