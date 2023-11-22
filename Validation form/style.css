@@ -94,3 +94,7 @@ form button {
   font-size: 0.9rem;
   color: #ca0909;
 }
+
+.input-group span i {
+  color: green;
+}
