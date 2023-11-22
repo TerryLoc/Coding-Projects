@@ -71,3 +71,19 @@ function validateMsg() {
   msgError.innerHTML = '<i class="fa-solid fa-circle-check"></i>';
   return true;
 }
+
+function validateForm() {
+  if (
+    !validateName() ||
+    !validatePhone() ||
+    !validateEmail() ||
+    !validateMsg()
+  ) {
+    submitError.style.display = 'block';
+    submitError.innerHTML = 'Please fill out the form fully.';
+    setTimeout(function () {
+      submitError.style.display = 'none';
+    }, 3000);
+    return false;
+  }
+}
