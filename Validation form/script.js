@@ -49,8 +49,25 @@ function validateEmail() {
     return false;
   }
 
-  if (!emailError.match(/))
+  if (!email.match(/^[A-Za-z\._\-[0-9]*[@][A-Za-z]*[\.][a-z]{2,4}$/)) {
+    emailError.innerHTML = 'Email invalid';
+    return false;
+  }
 
   emailError.innerHTML = '<i class="fa-solid fa-circle-check"></i>';
+  return true;
+}
+
+function validateMsg() {
+  let msg = document.getElementById('contact-msg').value;
+  let required = 30;
+  let left = required - msg.length;
+
+  if (left > 0) {
+    msgError.innerHTML = left + ' more characters required';
+    return false;
+  }
+
+  msgError.innerHTML = '<i class="fa-solid fa-circle-check"></i>';
   return true;
 }
