@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+  letter-spacing: 1px;
+}
+
+body {
+  background-color: #191919;
+}
+
+.gallery {
+  width: 900px;
+  display: flex;
+}
+
+.gallery div {
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 20px;
+  padding: 10px;
+}
+
+.gallery div img {
+  width: 100%;
+}
